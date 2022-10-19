@@ -9,12 +9,12 @@ function About() {
     <div className="container">
       <div className="card">
         <img
-          src="https://avatars.githubusercontent.com/u/100434447?v=4"
+          src="https://avatars.githubusercontent.com/u/100436234?v=4"
           alt=""
           className="profile-picture"
         />
         <div className="info-container">
-          <span className="name">Kadir Nurkovic</span>
+          <span className="name">Denis Mahmutovic</span>
           <span className="subtitle">React Developer</span>
           <span className="description">
             Lorem, ipsum dolor. Lorem, ipsum dolor.
@@ -26,78 +26,9 @@ function About() {
           </ul>
         </div>
       </div>
-      <div className="card">
-        <img src={Tarikimg} alt="" className="profile-picture" />
-        <div className="info-container">
-          <span className="name">Tarik Ibrahimovic</span>
-          <span className="subtitle">React Developer</span>
-          <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
-          </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </div>
-      </div>
-      <div className="card">
-        <img
-          src={Farisimg}
-          alt=""
-          className="profile-picture"
-        />
-        <div className="info-container">
-          <span className="name">Faris Coric</span>
-          <span className="subtitle">React Developer</span>
-          <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
-          </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </div>
-      </div>
-      <div className="card">
-        <img
-          src={Amirimg}
-          alt=""
-          className="profile-picture"
-        />
-        <div className="info-container">
-          <span className="name">Amir Ukic</span>
-          <span className="subtitle">React Developer</span>
-          <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
-          </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </div>
-      </div>
-      <div className="card">
-        <img
-          src={Ademimg}
-          alt=""
-          className="profile-picture"
-        />
-        <div className="info-container">
-          <span className="name">Adem Ugljanin</span>
-          <span className="subtitle">React Developer</span>
-          <span className="description">
-            Lorem, ipsum dolor. Lorem, ipsum dolor.
-          </span>
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </div>
-      </div>
+      
+      
+      
     </div>
   );
 }
